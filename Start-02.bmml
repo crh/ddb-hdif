@@ -1,0 +1,47 @@
+<mockup version="1.0" skin="sketch" measuredW="1039" measuredH="850" mockupW="975" mockupH="778">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="64" y="72" w="975" h="778" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DDB%20Help%20Desk%0Ahttp%3A//ddb.irgendwo.fiz-karlsruhe.de/helpdesk</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="84" y="171" w="-1" h="-1" measuredW="79" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Start</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::HRule" x="84" y="196" w="936" h="-1" measuredW="100" measuredH="5" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::LinkBar" x="859" y="170" w="-1" h="-1" measuredW="161" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2CStart-01%26bm%3BStart-01.bmml%26bm%3BStart-01.bmml%26bm%3BStart-01.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22911%2C98%2C956%2C123%22%20href%3D%22Start-01.bmml%22%20alt%3D%22Start-01%22%20id%3D%2234_0%22/%3E%0A</map>
+        <text>Carmen%20V%F6lker%2C%20Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::SearchBox" x="315" y="316" w="472" h="-1" measuredW="25" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Suchergebnisse-01%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22251%2C244%2C723%2C269%22%20href%3D%22Suchergebnisse-01.bmml%22%20alt%3D%22Suchergebnisse-01%22%20id%3D%22121%22/%3E</map>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::SearchBox" x="315" y="400" w="472" h="-1" measuredW="25" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Start-02-name%26bm%3BStart-02-name.bmml%26bm%3BStart-02-name.bmml%26bm%3BStart-02-name.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22251%2C328%2C723%2C353%22%20href%3D%22Start-02-name.bmml%22%20alt%3D%22Start-02-name%22%20id%3D%22128%22/%3E</map>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::Label" x="338" y="297" w="-1" h="-1" measuredW="48" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suchen</text>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::Label" x="338" y="381" w="-1" h="-1" measuredW="61" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Benutzer</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
