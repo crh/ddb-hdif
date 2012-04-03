@@ -1,6 +1,6 @@
-<mockup version="1.0" skin="sketch" measuredW="1039" measuredH="850" mockupW="975" mockupH="778">
+<mockup version="1.0" skin="sketch" measuredW="1039" measuredH="925" mockupW="975" mockupH="853">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="64" y="72" w="975" h="778" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="64" y="72" w="975" h="853" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <text>DDB%20Help%20Desk%0Ahttp%3A//ddb.irgendwo.fiz-karlsruhe.de/helpdesk</text>
         <verticalScrollbar>false</verticalScrollbar>
@@ -14,33 +14,51 @@
     <control controlID="33" controlTypeID="com.balsamiq.mockups::HRule" x="84" y="196" w="936" h="-1" measuredW="100" measuredH="5" zOrder="2" locked="false" isInGroup="-1"/>
     <control controlID="34" controlTypeID="com.balsamiq.mockups::LinkBar" x="859" y="170" w="-1" h="-1" measuredW="161" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <hrefs>%2CStart-01%26bm%3BStart-01.bmml%26bm%3BStart-01.bmml%26bm%3BStart-01.bmml</hrefs>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22911%2C98%2C956%2C123%22%20href%3D%22Start-01.bmml%22%20alt%3D%22Start-01%22%20id%3D%2234_0%22/%3E%0A</map>
         <text>Carmen%20V%F6lker%2C%20Logout</text>
       </controlProperties>
     </control>
-    <control controlID="121" controlTypeID="com.balsamiq.mockups::SearchBox" x="315" y="316" w="472" h="-1" measuredW="25" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::SearchBox" x="252" y="317" w="472" h="-1" measuredW="25" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <href>Suchergebnisse-01%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22251%2C244%2C723%2C269%22%20href%3D%22Suchergebnisse-01.bmml%22%20alt%3D%22Suchergebnisse-01%22%20id%3D%22121%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22188%2C245%2C660%2C270%22%20href%3D%22Suchergebnisse-01.bmml%22%20alt%3D%22Suchergebnisse-01%22%20id%3D%22121%22/%3E</map>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="128" controlTypeID="com.balsamiq.mockups::SearchBox" x="315" y="400" w="472" h="-1" measuredW="25" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::SearchBox" x="252" y="401" w="472" h="-1" measuredW="25" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>Start-02-name%26bm%3BStart-02-name.bmml%26bm%3BStart-02-name.bmml%26bm%3BStart-02-name.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22251%2C328%2C723%2C353%22%20href%3D%22Start-02-name.bmml%22%20alt%3D%22Start-02-name%22%20id%3D%22128%22/%3E</map>
+        <href>Suchergebnisse-01%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22188%2C329%2C660%2C354%22%20href%3D%22Suchergebnisse-01.bmml%22%20alt%3D%22Suchergebnisse-01%22%20id%3D%22128%22/%3E</map>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="129" controlTypeID="com.balsamiq.mockups::Label" x="338" y="297" w="-1" h="-1" measuredW="48" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::Label" x="275" y="298" w="-1" h="-1" measuredW="150" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Suchen</text>
+        <text>Suche%20in%20Benutzername</text>
       </controlProperties>
     </control>
-    <control controlID="130" controlTypeID="com.balsamiq.mockups::Label" x="338" y="381" w="-1" h="-1" measuredW="61" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::Label" x="275" y="382" w="-1" h="-1" measuredW="361" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Benutzer</text>
+        <text>Suche%20in%20allen%20Feldern%20%28Ort%2C%20Standort%2C%20Nachname%2C%20etc.%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::Button" x="739" y="315" w="-1" h="-1" measuredW="111" measuredH="28" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Suchergebnisse-01%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22675%2C243%2C786%2C271%22%20href%3D%22Suchergebnisse-01.bmml%22%20alt%3D%22Suchergebnisse-01%22%20id%3D%22131%22/%3E</map>
+        <text>Suche%20starten</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Button" x="739" y="399" w="-1" h="-1" measuredW="111" measuredH="28" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Suchergebnisse-01%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml%26bm%3BSuchergebnisse-01.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22675%2C327%2C786%2C355%22%20href%3D%22Suchergebnisse-01.bmml%22%20alt%3D%22Suchergebnisse-01%22%20id%3D%22132%22/%3E</map>
+        <text>Suche%20starten</text>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::StickyNote" x="253" y="500" w="240" h="143" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%22Suche%20in%20Benutzername%22%20sucht%20nur%20nach%20Login-ID.%20Beim%20Tippen%20werden%20unter%20dem%20Feld%20m%F6gliche%20Treffer%20angezeigt.</text>
       </controlProperties>
     </control>
   </controls>

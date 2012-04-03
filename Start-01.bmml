@@ -25,7 +25,7 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="127" controlTypeID="__group__" x="428" y="356" w="246" h="28" measuredW="246" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="127" controlTypeID="__group__" x="428" y="356" w="245" h="28" measuredW="245" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="61" measuredH="28" zOrder="0" locked="false" isInGroup="127">
           <controlProperties>
@@ -39,14 +39,15 @@
             <text>Benutzer</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="165" y="0" w="-1" h="-1" measuredW="81" measuredH="28" zOrder="2" locked="false" isInGroup="127">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="165" y="0" w="-1" h="-1" measuredW="80" measuredH="28" zOrder="2" locked="false" isInGroup="127">
           <controlProperties>
             <href>Unterstandort-Berlin-02%26bm%3BUnterstandort-Berlin-02.bmml%26bm%3BUnterstandort-Berlin-02.bmml%26bm%3BUnterstandort-Berlin-02.bmml</href>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22529%2C284%2C610%2C312%22%20href%3D%22Unterstandort-Berlin-02.bmml%22%20alt%3D%22Unterstandort-Berlin-02%22%20id%3D%222%22/%3E</map>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22529%2C284%2C609%2C312%22%20href%3D%22Unterstandort-Berlin-02.bmml%22%20alt%3D%22Unterstandort-Berlin-02%22%20id%3D%222%22/%3E</map>
             <text>Standort</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
     </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::RedX" x="325" y="226" w="439" h="240" measuredW="240" measuredH="104" zOrder="6" locked="false" isInGroup="-1"/>
   </controls>
 </mockup>
