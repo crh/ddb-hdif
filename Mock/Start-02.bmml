@@ -56,7 +56,7 @@
         <text>Suche%20starten</text>
       </controlProperties>
     </control>
-    <control controlID="133" controlTypeID="com.balsamiq.mockups::StickyNote" x="253" y="500" w="240" h="143" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::StickyNote" x="281" y="504" w="240" h="143" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%22Suche%20in%20Benutzername%22%20sucht%20nur%20nach%20Login-ID.%20Beim%20Tippen%20werden%20unter%20dem%20Feld%20m%F6gliche%20Treffer%20angezeigt.</text>
       </controlProperties>
