@@ -601,8 +601,8 @@
     </control>
     <control controlID="121" controlTypeID="__group__" x="84" y="736" w="296" h="95" measuredW="296" measuredH="95" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>Unterstandort-Berlin-02%26bm%3BUnterstandort-Berlin-02.bmml%26bm%3BUnterstandort-Berlin-02.bmml%26bm%3BUnterstandort-Berlin-02.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2220%2C664%2C316%2C759%22%20href%3D%22Unterstandort-Berlin-02.bmml%22%20alt%3D%22Unterstandort-Berlin-02%22%20id%3D%22121%22/%3E</map>
+        <href>Unterstandort-Berlin-03%26bm%3BUnterstandort-Berlin-03.bmml%26bm%3BUnterstandort-Berlin-03.bmml%26bm%3BUnterstandort-Berlin-03.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2220%2C664%2C316%2C759%22%20href%3D%22Unterstandort-Berlin-03.bmml%22%20alt%3D%22Unterstandort-Berlin-03%22%20id%3D%22121%22/%3E</map>
       </controlProperties>
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="188" h="95" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="121">
@@ -824,9 +824,9 @@
                 <text>helpdesk@FIZ-Karlsruhe.de</text>
               </controlProperties>
             </control>
-            <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="112" y="363" w="479" h="-1" measuredW="79" measuredH="29" zOrder="11" locked="false" isInGroup="0">
+            <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="112" y="363" w="479" h="-1" measuredW="50" measuredH="29" zOrder="11" locked="false" isInGroup="0">
               <controlProperties>
-                <text/>
+                <text>GmbH</text>
               </controlProperties>
             </control>
             <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="112" y="123" w="479" h="60" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="0">
