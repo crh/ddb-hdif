@@ -333,5 +333,10 @@
         <text>Zu%20jedem%20zugeordneten%20Unterstandort%20wird%20der%20Hauptstandort%20angezeigt.%20Auch%20wenn%20der%20Haupstandort%20nicht%20der%20Person%20zugeordnet%20ist.%0AWie%20werden%20solche%20nicht-zugeordneten%20Hauptstandorte%20dargestellt%2C%20damit%20der%20Benutzer%20erkennt%2C%20dass%20diese%20nicht%20zugeordnet%20sind%3F%3F%3F</text>
       </controlProperties>
     </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::StickyNote" x="395" y="329" w="219" h="122" measuredW="109" measuredH="123" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Titel%2C%20Anrede%20%28Auswahl%29%2C%20T%E4tigkeitsbezeichnung</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

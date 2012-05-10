@@ -908,5 +908,10 @@
         <text>Personen%20in%20dieser%20Liste%20sind%20nur%20lesbar.%20Es%20kann%20in%20dieser%20Liste%20nichts%20ge%E4ndert%20werden.</text>
       </controlProperties>
     </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::StickyNote" x="458" y="395" w="217" h="171" measuredW="109" measuredH="123" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adresszusatz%2C%20URL%20%28der%20about%20seite%29%2C%20Sparte%20%28Auswahl%29%0A%20%0AWie%20Georeferenz%20anzeigen%3F</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
