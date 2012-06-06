@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>DDB Help Desk</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="DDB Help Desk Standort 3 Proptotype">
+<meta name="author" content="Christian Herlambang">
+<!-- Le styles -->
+<link rel="stylesheet" href="assets/css/default.css">
+<link rel="profile" href="http://microformats.org/profile/hcard">
+</head>
+<body>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+        <div class="nav-collapse" id="breadcrump">
+          <ul class="breadcrumb">
+            <li><a href="#">Die</a> <span class="divider">></span></li>
+            <li><a href="#">Letzten</a> <span class="divider">></span></li>
+            <li><a href="#">Fuenf</a> <span class="divider">></span></li>
+            <li><a href="#">Aufgerufenen</a> <span class="divider">></span></li>
+            <li class="active">Seiten</li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+        <div class="btn-group pull-right">
+          <a>FooBar</a>
+          |
+          <a>Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid" id="content">
+    <div class="span6" id="locations">
+      <div id="mainlocation">
+        <form class="form-horizontal">
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label" for="name">Name</label>
+              <div class="controls">
+                <input type="text" name="name" value="FIZ Karlsruhe" id="name" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="description">Description</label>
+              <div class="controls">
+                <textarea name="description" cols="40" rows="5" id="description">Leibniz-Institut f&uuml;r Informationsinfrastruktur</textarea>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="legalStatus">Legal Status</label>
+              <div class="controls">
+                <select name="legalStatus" id="legalStatus">
+                  <option value=""></option>
+                  <option value="AG">AG</option>
+                  <option value="GbR">GbR</option>
+                  <option value="GmbH" selected="selected">GmbH</option>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="url"> Url </label>
+              <div class="controls">
+                <input type="url" name="url" value="" id="url" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="category"> Category </label>
+              <div class="controls">
+                <select name="category" id="category">
+                  <option value=""></option>
+                  <option value="Forschung" selected="selected">Forschung</option>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="logo"> Logo </label>
+              <div class="controls">
+                <input type="url" name="logo" value="" id="logo" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="abbreviation"> Abbreviation </label>
+              <div class="controls">
+                <input type="text" name="abbreviation" value="FIZ KA" id="abbreviation" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="addressAddition"> Address Addition </label>
+              <div class="controls">
+                <input type="text" name="addressAddition" value="" id="addressAddition" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="city"> City </label>
+              <div class="controls">
+                <input type="text" name="city" value="Eggenstein-Leopoldshafen" id="city" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="faxNumber"> Fax Number </label>
+              <div class="controls">
+                <input type="text" name="faxNumber" value="+49 7247 808 259" id="faxNumber" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="mail"> Mail </label>
+              <div class="controls">
+                <input type="text" name="mail" value="helpdesk@fiz-karlsruhe.de" id="mail" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="state"> State </label>
+              <div class="controls">
+                <input type="text" name="state" value="Baden-W&uuml;rttemberg" id="state" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="street"> Street </label>
+              <div class="controls">
+                <input type="text" name="street" value="Hermann-von-Helmholtz-Platz 1" id="street" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="telephoneNumber"> Telephone Number </label>
+              <div class="controls">
+                <input type="text" name="telephoneNumber" value="+49 7247 808 555"
+                  id="telephoneNumber"
+                />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="zipCode"> Zip Code </label>
+              <div class="controls">
+                <input type="text" name="zipCode" value="76344" id="zipCode" />
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" name="action_update" value="Aktualisieren"
+                class="btn btn-primary save"
+              >Aktualisieren</button>
+              <button name="action_delete" value="Loeschen" class="btn delete" formnovalidate=""
+                onclick="return confirm(&#39;Sind Sie sicher?&#39;);"
+              >Loeschen</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="row" id="sublocations">
+        <div class="span2">
+          <div>Berlin</div>
+        </div>
+        <div class="span2">
+          <div>Bonn</div>
+        </div>
+        <div class="span2">
+          <div>Lawrenceville</div>
+        </div>
+      </div>
+    </div>
+    <div class="span6" id="people">
+      <div id="peopleSearch">
+        <header>
+          <h2>Personen</h2>
+        </header>
+        <form class="form-search">
+          <input type="text" class="input-medium search-query" placeholder="Type to filter">
+          <button type="submit" class="btn">Hinzufuege</button>
+        </form>
+      </div>
+      <div id="peopleList">
+        <ul>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="vcard">
+                <div class="fn">
+                  <h3>Frank Schwichtenberg</h3>
+                </div>
+                <div class="nickname">fschwic</div>
+                <div class="email">Frank.Schwichtenberg@fiz-karlsruhe.de</div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer" role="contentinfo"></div>
+  <!-- le JavaScript -->
+  <script type="text/javascript">setTimeout(function() { location.reload() }, 10001 );</script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
