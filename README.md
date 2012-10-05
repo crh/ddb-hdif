@@ -1,17 +1,28 @@
 # [DDB Help Desk][![Build Status]](http://escidoc.org/jenkins)
 
 ## description
-ddb help desk is a web application for managing ddb institutions and its users. 
+ddb help desk is a web application for managing ddb institutions and its users.
 
 ## getting started
 ### download
 Clone the repo, `git clone https://github.com/Deutsche-Digitale-Bibliothek/ddb-helpdesk`, or [download the latest release](https://github.com/Deutsche-Digitale-Bibliothek/ddb-helpdesk/zipball/master).
 
-### install/deploy
-*TODO*
+### build
+we are using [yeoman](http://yeoman.io)
 
 ### run
-*TODO*
+
+```shell
+$ cd app
+$ python -m SimpleHTTPServer 3004
+```
+
+if you are using yeoman
+```shell
+$ yeoman server
+````
+
+open web browser: `http://localhost:3004`
 
 ## usage
 *TODO*
@@ -26,7 +37,33 @@ Clone the repo, `git clone https://github.com/Deutsche-Digitale-Bibliothek/ddb-h
 Have a bug? Please create an issue [https://jira.deutsche-digitale-bibliothek.de/browse/DDBEXTRA], Component: DDB HelpDesk that conforms with [necolas's guidelines](https://github.com/necolas/issue-guidelines).
 
 ## developers
-you need a VPN access to the FIZ Karlsruhe development server. Ask Frank 
+
+### IDE / Text Editor
+
+#### Eclipse
+
+If you are using eclipse, please refer to [Web Application Developement with Eclipse](https://www.escidoc.org/wiki/Web_Application_Development#Eclipse)
+
+##### Bootstrap
+
++ Create a JavaScript project
+```
+  CTRL-3 > new javascript > 'New JavaScript Project'
+```
+
++ choose a project name, for example: ddb-hdif
++ check 'create project from exiting source' (ALT + x)
++ choose the cloned project, i.e., ddb-hdif
++ click finish
++ make sure you configure 
+  + HTML Tidy
+  + JSHint, JavaScript Formmater and Code Clean Up
+  before you start developing.
+  See: https://www.escidoc.org/wiki/Web_Application_Development
+
+### REST service access
+
+you need a VPN access to the FIZ Karlsruhe development server. Ask Frank
 Schwichtenberg, if you need one.
 
 ### technology
@@ -43,11 +80,11 @@ Schwichtenberg, if you need one.
 
 ### models
 + organization
-+ user
++ person
 
 ### collections
-+ organizations
-+ users
++ organization-collection
++ person-collection
 
 ### view
 
@@ -66,6 +103,9 @@ Schwichtenberg, if you need one.
 ### routes
 *TODO*
 
+### first iteration
+*TODO*
+
 ### rest service
 dev service URI: http://141.66.8.240:8080/aas/ (FIZ KA/IEE VPN is needed)
 
@@ -74,8 +114,30 @@ dev service URI: http://141.66.8.240:8080/aas/ (FIZ KA/IEE VPN is needed)
 + yeoman.io
 + backbone.js
 
+### directory structure
+.
+|-Mock
+|-app
+|---components
+|---scripts
+|-----collections
+|-----helpers
+|-----models
+|-----routes
+|-----templates
+|-----vendor
+|-----views
+|---styles
+|-test
+|---lib
+|-----mocha-1.2.2
+|---runner
+
 ## contributing
 *TODO*
+
++ Code Style
+  Please follow our [HTML, CSS and JavaScript style guide](https://www.escidoc.org/wiki/Web_Application_Development#Code_Style).
 
 ## authors
 

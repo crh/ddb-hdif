@@ -1,0 +1,6 @@
+dist
+temp
+
+# eclipse
+.project
+.settings

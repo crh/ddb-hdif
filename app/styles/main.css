@@ -1,0 +1,86 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+/* temporary style, copied from
+ * http://net.tutsplus.com/tutorials/javascript-ajax/build-a-contacts-manager-using-backbone-js-part-1/*/
+
+.person-container {
+  width:400px;
+  padding:10px;
+  border:1px solid #aaa;
+  margin:0 10px 10px 0;
+  float:left; font-family:sans-serif;
+  color:#333; background-color:#eee;
+}
+
+.person-container div {
+  margin-bottom:24px;
+  font-size:14px;
+}
+
+.person-container a { color:#333; }
+
+.person-container dl {
+  margin:0;
+  float:left;
+  font-size:14px;
+}
+
+.person-container dt,
+.person-container dd {
+  margin:0;
+  float:left;
+}
+
+.person-container dt {
+  width:50px;
+  clear:left;
+}
+
+.person-container button {
+  margin-top:10px;
+  float:right;
+}
+
+header { margin-bottom:10px; }
+
+#filter { float:left; }
+#showForm { float:right; }
+
+#addperson {
+  display: none;
+  float: right;
+  clear: both;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#addperson label {
+  width:60px;
+  margin-right:10px;
+  text-align:right;
+  line-height:25px;
+}
+
+#addperson label,
+#addperson input {
+  display:block;
+  margin-bottom:10px;
+  float:left;
+}
+
+#address {
+  width:380px;
+  margin-left:2px;
+}
+
+#addperson label[for="name"],
+#addperson label[for="address"],
+#addperson label[for="tel"] {
+  clear:both;
+}
+
+#addperson button {
+  display:block;
+  margin:10px 10px 0 0;
+  float:right;
+  clear:both;
+}
