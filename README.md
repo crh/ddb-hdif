@@ -5,10 +5,10 @@ ddb help desk is a web application for managing ddb institutions and its users.
 
 ## getting started
 ### download
-Clone the repo, `git clone https://github.com/Deutsche-Digitale-Bibliothek/ddb-helpdesk`, or [download the latest release](https://github.com/Deutsche-Digitale-Bibliothek/ddb-helpdesk/zipball/master).
+Clone the repo, `git clone https://github.com/Deutsche-Digitale-Bibliothek/ddb-helpdesk`
 
 ### build
-we are using [yeoman](http://yeoman.io)
+we are using [yeoman](http://yeoman.io) for building and packaging.
 
 ### run
 
@@ -56,15 +56,16 @@ If you are using eclipse, please refer to [Web Application Developement with Ecl
 + choose the cloned project, i.e., ddb-hdif
 + click finish
 + make sure you configure 
-  + HTML Tidy
-  + JSHint, JavaScript Formmater and Code Clean Up
+  + [HTML Tidy](https://www.escidoc.org/wiki/Web_Application_Development#HTML_Tidy_Plug-ins)
+  + [JSHint](https://www.escidoc.org/wiki/Web_Application_Development#JS_Hint) 
+  +  [JavaScript Formmater and Code Clean Up](https://www.escidoc.org/wiki/Web_Application_Development#Eclipse_Formatter_.26_Code_Clean)
   before you start developing.
-  See: https://www.escidoc.org/wiki/Web_Application_Development
+  + [Google Closure
+    Linter](https://www.escidoc.org/wiki/Web_Application_Development#Google_Closure_Linter_Plug-ins)
 
 ### REST service access
 
-you need a VPN access to the FIZ Karlsruhe development server. Ask Frank
-Schwichtenberg, if you need one.
+you need a VPN access to the FIZ Karlsruhe development server. Ask Frank Schwichtenberg, if you need one.
 
 ### technology
 + html
@@ -75,8 +76,8 @@ Schwichtenberg, if you need one.
 ### design
 *TODO*
 
-### supported browsers
-*TODO*
+### _not_ supported browsers
+IE older than version 9
 
 ### models
 + organization
@@ -115,6 +116,7 @@ dev service URI: http://141.66.8.240:8080/aas/ (FIZ KA/IEE VPN is needed)
 + backbone.js
 
 ### directory structure
+```
 .
 |-Mock
 |-app
@@ -132,6 +134,7 @@ dev service URI: http://141.66.8.240:8080/aas/ (FIZ KA/IEE VPN is needed)
 |---lib
 |-----mocha-1.2.2
 |---runner
+```
 
 ## contributing
 *TODO*
@@ -141,10 +144,13 @@ dev service URI: http://141.66.8.240:8080/aas/ (FIZ KA/IEE VPN is needed)
 
 ## authors
 
-**Frank Schwichtenberg**
+** Frank Schwichtenberg **
 + https://github.com/fschwic
 
-**Christian Herlambang**
+** Frank Asseg **
++ https://github.com/fasseg
+
+** Christian Herlambang **
 + http://gplus.to/crh
 + https://github.com/crh
 
