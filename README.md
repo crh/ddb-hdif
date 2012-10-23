@@ -59,9 +59,9 @@ If you are using eclipse, please refer to [Web Application Developement with Ecl
   + [HTML Tidy](https://www.escidoc.org/wiki/Web_Application_Development#HTML_Tidy_Plug-ins)
   + [JSHint](https://www.escidoc.org/wiki/Web_Application_Development#JS_Hint) 
   +  [JavaScript Formmater and Code Clean Up](https://www.escidoc.org/wiki/Web_Application_Development#Eclipse_Formatter_.26_Code_Clean)
-  before you start developing.
   + [Google Closure
     Linter](https://www.escidoc.org/wiki/Web_Application_Development#Google_Closure_Linter_Plug-ins)
+  before you start developing.
 
 ### REST service access
 
